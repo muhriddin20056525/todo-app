@@ -125,6 +125,10 @@ body {
 }
 
 @media (max-width: 800px) {
+  .todo-container {
+    width: 90%;
+  }
+
   .todo-header {
     flex-direction: column;
   }
@@ -132,5 +136,12 @@ body {
   .todo-header input,
   .todo-header button {
     width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .todo-header,
+  .todo-body {
+    padding: 15px;
   }
 }
